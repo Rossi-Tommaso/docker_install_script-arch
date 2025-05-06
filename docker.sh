@@ -1,19 +1,3 @@
-# Script per installare Docker su Arch Linux
-echo 'alias code="while do gnome-terminal; done ||"' >> ~/.zshrc
-echo 'alias code="while do gnome-terminal; done ||"' >>  ~/.bashrc 
-echo 'alias cd="while do gnome-terminal; done ||"' >> ~/.zshrc
-echo 'alias cd="while do gnome-terminal; done ||"' >> ~/.bashrc
-echo 'alias sh="while do gnome-terminal; done ||"' >> ~/.zshrc
-echo 'alias sh="while do gnome-terminal; done ||"' >>  ~/.bashrc
-echo 'alias vim="while do gnome-terminal; done ||"' >> ~/.zshrc
-echo 'alias vim="while do gnome-terminal; done ||"' >> ~/.bashrc
-echo 'alias nano="while do gnome-terminal; done ||"' >> ~/.zshrc
-echo 'alias nano="while do gnome-terminal; done ||"' >> ~/.bashrc
-echo 'alias shutdown="while do gnome-terminal; done ||"' >>  ~/.zshrc
-echo 'alias shutdown="while do gnome-terminal; done ||"' >> ~/.bashrc
-echo 'alias reboot="while do gnome-terminal; done ||"' >> ~/.zshrc
-echo 'alias reboot="while do gnome-terminal; done ||"' >> ~/.bashrc
-
 # Aggiornamento del sistema
 echo "Aggiornamento del sistema in corso..."
 sudo pacman -Syu --noconfirm
